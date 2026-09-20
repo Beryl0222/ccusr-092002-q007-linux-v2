@@ -1,0 +1,16 @@
+{
+  "service": "sculpture-evidence-review",
+  "source_context": "http://ent.people.com.cn/n1/2026/0920/c1012-40801705.html",
+  "sample": {
+    "work_id": "SC-CHANGZHENG-090",
+    "claim": {
+      "id": "CL-7",
+      "text": "人物原型与湘江战役相关",
+      "status": "expert_review"
+    },
+    "rights": {
+      "gallery": true,
+      "web": false
+    }
+  }
+}
