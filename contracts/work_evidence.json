@@ -3,11 +3,26 @@
   "source_context": "http://ent.people.com.cn/n1/2026/0920/c1012-40801705.html",
   "sample": {
     "work_id": "SC-CHANGZHENG-090",
-    "claim": {
-      "id": "CL-7",
-      "text": "人物原型与湘江战役相关",
-      "status": "expert_review"
-    },
+    "claims": [
+      {
+        "id": "CL-7",
+        "text": "人物原型与湘江战役相关",
+        "status": "expert_review",
+        "evidence_ids": ["EV-101", "EV-102"]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "EV-101",
+        "kind": "creator_statement",
+        "summary": "创作者陈述：人物原型来自湘江战役幸存者口述"
+      },
+      {
+        "id": "EV-102",
+        "kind": "archive",
+        "summary": "档案出处：湘江战役相关名册节选"
+      }
+    ],
     "rights": {
       "gallery": true,
       "web": false
