@@ -12,5 +12,44 @@
       "gallery": true,
       "web": false
     }
+  },
+  "channels": ["web", "offline", "education"],
+  "claim_status": ["draft", "disputed", "approved", "rejected"],
+  "evidence_kinds": ["artist_statement", "fieldwork", "archive_source", "revision_response"],
+  "commands": [
+    "register_work",
+    "record_claim",
+    "record_evidence",
+    "register_expert",
+    "declare_conflict",
+    "open_review_round",
+    "cast_vote",
+    "close_review_round",
+    "dispute_claim",
+    "issue_errata",
+    "register_asset",
+    "grant_rights",
+    "revoke_rights",
+    "create_gallery_version",
+    "supersede_gallery_version",
+    "open_publication",
+    "close_publication"
+  ],
+  "rules": [
+    "争议事实只能进入受限预展，不进入任何公开渠道视图",
+    "声明利益冲突的专家不得对该作品相关叙述投票，闭轮时其票不计入",
+    "会审定须至少 2 名无冲突专家投票，赞成多于反对方可通过",
+    "公开文本修订必须以审定通过的会签轮次为依据，并生成公众可见勘误",
+    "图像与文字授权按 web/offline/education 三渠道分别判定期限",
+    "撤回单项授权不影响其它渠道授权，也不损坏已固化的展厅版本快照",
+    "任意日期的观众视图仅由该日期（含）之前的事件重放得到"
+  ],
+  "rights_grant_example": {
+    "grant_id": "GR-CL7-WEB-2026",
+    "subject_type": "claim",
+    "subject_id": "CL-7",
+    "channel": "web",
+    "valid_from": "2026-09-20",
+    "valid_until": "2027-09-19"
   }
 }
